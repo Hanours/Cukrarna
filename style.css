@@ -1,0 +1,299 @@
+/* intuitivnější box-sizing pro všechny prvky na stránce */
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+	margin: 0;
+	font-family: 'Lora', serif;
+	font-size:18px;
+	line-height:1.5;
+}
+
+
+.hlavicka{
+	display:flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	list-style: none;
+	margin-left: auto;
+    margin-right: auto;
+	max-width:1100px;
+}
+
+
+
+.logo{
+	width: 170px;
+}
+
+ul{
+	
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin:0;
+	
+}
+
+a{justify-content: space-between;
+	text-decoration: none;
+	padding: 5px 15px;
+    color:#242424;	
+	}
+
+.tlacitko{
+		border: #f195b2 solid 1px;
+		border-radius: 20px;
+		padding:10px 15px;
+		background-color: #f195b2;
+		color:white;
+	}
+.tlacitko:hover{background-color:#d2567d;	}
+
+.hero{
+	background-image:url("images/cupcake.jpg");
+	background-size: 100%;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	}
+
+h1	{
+	color:white;
+	font-size: 52px;
+	margin-left: auto;
+    margin-right: auto;
+	max-width:1100px;
+	font-family: 'Playfair Display', serif;
+	line-height:1.25;
+}
+
+.prvni{
+	color:white;
+	font-size: 24px;
+	font-style: italic;
+	max-width:1100px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.cukrarna{
+	padding-bottom: 80px;
+	padding-top: 80px;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	max-width:1100px;
+}
+
+.tlacitko2{
+	border: #f195b2 solid 1px;
+	border-radius: 20px;
+	padding:10px 15px;
+	background-color: #f195b2;
+	color:white;
+
+}
+
+.tlacitko2:hover{background-color:#d2567d;	}
+
+h2{
+	font-size:36px;
+	font-family: 'Playfair Display', serif;
+	color:#3e606b;	
+	line-height:1.25;
+}
+
+.cukrarka{
+	border-radius: 5px 5px 5px 5px;
+}
+
+.nabidka{
+	background-color: #f0f0f0;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	margin-left: auto;
+    margin-right: auto;
+	padding-right: 30px;
+}
+
+.produkty{
+		display: flex;
+		margin-left: auto;
+    	margin-right: auto;
+		max-width:1100px;
+	
+}
+
+.nabidkaUvod{
+	max-width:1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.produkt1{
+
+	flex-direction: column;
+	padding-right: 30px;
+
+}
+
+.produkt1 img{
+	border-radius: 5px 5px 0px 0px;
+	margin: 0px;
+	max-width:calc(1100px/4);
+}
+
+.dortmal{
+	border:solid white 0px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: white;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	max-width:calc(1100px/4);
+}
+
+.produkt2{
+
+	flex-direction: column;
+	flex-grow: 0;
+	padding-right: 30px;
+	flex-shrink: 1;
+}
+
+.livance{
+	border-radius: 5px 5px 0px 0px;
+	margin: 0px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	max-width:calc(1100px/4);
+}
+
+.livanceText{
+	border:solid white 0px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: white;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	flex-grow: 0;
+	flex-shrink: 1;
+	max-width:calc(1100px/4);
+	
+}
+
+.produkt3{
+
+	flex-direction: column;
+	flex-grow: 0;
+	
+	padding-right: 30px;
+	flex-shrink: 1;
+}
+
+.kolac{
+	border-radius: 5px 5px 0px 0px;
+	margin: 0px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	max-width:calc(1100px/4);
+}
+
+.kolacDyne{
+	border:solid white 0px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: white;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	flex-grow: 0;
+	flex-shrink: 1;
+	max-width:calc(1100px/4);
+}
+.produkt4{
+
+	flex-direction: column;
+	flex-grow: 0;
+	padding-right: 30px;
+	flex-shrink: 1;
+	
+}
+.buchticka{
+	border-radius: 5px 5px 0px 0px;
+	margin: 0px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	max-width:calc(1100px/4);
+
+	
+}
+
+.buchta{
+	border:solid white 0px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: white;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	flex-grow: 0;
+	flex-shrink: 1;
+	max-width:calc(1100px/4);
+
+
+}
+.peceni{
+	padding-bottom: 80px;
+	padding-top: 80px;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	max-width:1100px;
+
+}
+
+.levy{
+	border-radius: 5px 5px 5px 5px;
+
+}
+
+.pravy{
+	display: block;
+	padding-left: 30px;
+}
+
+.paticka{background-color: 	#303339;
+		color:white;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+
+
+}
+/*
+	Poznámky:
+	- maximální šířka obsahu uvnitř sekcí je 1100px
+	- "pruh" s obsahem obsah je vycentrovaný na stránce
+	- všechny sekce mají nahoře a dole padding 80px
+	- kromě hlavičky a patičky, které mají jen 30px
+	- nadpisy jsou fontem Playfair Display, tučně
+	- veškerý další text na stránce fontem Lora
+	- výchozí velikost textu na stránce je 18px, řádkování 1.5
+
+	Velikosti nadpisů:
+	h1 - 52px  (nadpis v horní Hero sekci s cupcakem)
+	h2 - 36px  (nadpisy v dalších sekcích)
+	h3 - 18px  (název produktu v Dnešní nabídce)
+	Nadpisy mají řádkování jen 1.25
+
+	Barvy:
+	#f195b2		růžová - tlačítka a zvýraznění
+	#d2567d		tmavá růžová - hover/aktivní tlačítka
+	#3e606b		tmavá tyrkysová - na nadpisy
+	#242424		(skoro) černá - na běžný text
+	#f0f0f0		světle šedé pozadí prostřední sekce
+	#303339		tmavé pozadí patičky
+*/
+
+
+
