@@ -56,7 +56,12 @@ a{justify-content: space-between;
 	background-size: 100%;
 	padding-bottom: 80px;
 	padding-top: 80px;
-	}
+	border:solid white 0px;
+}
+.hero h1{
+	padding-right: 40%;
+}
+
 
 h1	{
 	color:white;
@@ -75,6 +80,7 @@ h1	{
 	max-width:1100px;
 	margin-left: auto;
     margin-right: auto;
+	padding-right: 40%;
 }
 
 .cukrarna{
